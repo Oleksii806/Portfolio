@@ -1,11 +1,12 @@
-import { useState } from 'react'
-
+import React from "react";
+import Header from "./Components/Header";
+import "./App.css";
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <Header shit={true}></Header>
+      <span >1234567</span>
     </>
   )
 }
